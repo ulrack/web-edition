@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+use Ulrack\Kernel\Component\Kernel\Kernel;
+use Ulrack\Kernel\Component\Kernel\Manager\CoreManager;
+use Ulrack\CliApplication\Component\Application\CliApplication;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+
+$coreManager = new CoreManager(__DIR__ . '/../');
+
+$kernel = new Kernel(
+    $coreManager
+);
+
+$cliApplication = new CliApplication($argv);
+
+$kernel->run(
+    $cliApplication
+);
+
+exit($cliApplication->getExitCode());
