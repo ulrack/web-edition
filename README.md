@@ -1,4 +1,4 @@
-[![Join us on Discord](https://img.shields.io/discord/753858953452191916.svg?label=Join+us&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/wdZkMY)
+[![Join us on Discord](https://img.shields.io/discord/753858953452191916.svg?label=Join+us&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/k9KVYqm)
 
 # Ulrack Web Edition
 
