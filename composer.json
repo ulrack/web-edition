@@ -14,7 +14,7 @@
     "require": {
         "php": "^7.3",
         "ulrack/cli-application": "^1.0",
-        "ulrack/web-application": "^1.0"
+        "ulrack/web-application": "^2.0"
     },
     "config": {
         "sort-packages": true
