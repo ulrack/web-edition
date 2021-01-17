@@ -1,0 +1,6 @@
+{
+    "register.default.router": {
+        "trigger": "triggers.web.main.routers",
+        "service": "services.default.router"
+    }
+}

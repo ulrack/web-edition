@@ -1,0 +1,5 @@
+{
+    "default.endpoint": {
+        "class": "\\MyVendor\\MyProject\\Component\\Endpoint\\DefaultEndpoint"
+    }
+}

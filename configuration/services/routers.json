@@ -1,0 +1,5 @@
+{
+    "default.router": {
+        "class": "\\MyVendor\\MyProject\\Component\\Router\\DefaultRouter"
+    }
+}
