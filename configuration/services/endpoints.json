@@ -1,5 +1,7 @@
 {
-    "default.endpoint": {
-        "class": "\\MyVendor\\MyProject\\Component\\Endpoint\\DefaultEndpoint"
+    "services": {
+        "default.endpoint": {
+            "class": "\\MyVendor\\MyProject\\Component\\Endpoint\\DefaultEndpoint"
+        }
     }
 }

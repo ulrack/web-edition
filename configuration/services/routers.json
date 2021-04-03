@@ -1,5 +1,13 @@
 {
-    "default.router": {
-        "class": "\\MyVendor\\MyProject\\Component\\Router\\DefaultRouter"
+    "services": {
+        "default.router": {
+            "class": "\\MyVendor\\MyProject\\Component\\Router\\DefaultRouter"
+        }
+    },
+    "tags": {
+        "register.default.router": {
+            "trigger": "triggers.web.main.routers",
+            "service": "services.default.router"
+        }
     }
 }
